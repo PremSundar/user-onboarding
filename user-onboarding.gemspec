@@ -7,11 +7,11 @@ require "user-onboarding/version"
 Gem::Specification.new do |s|
   s.name        = "user-onboarding"
   s.version     = UserOnboarding::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of UserOnboarding."
-  s.description = "TODO: Description of UserOnboarding."
+  s.authors     = ["Prem"]
+  s.email       = ["prem.sundar@freshworks.com"]
+  s.homepage    = "https://github.com/PremSundar/user-onboarding"
+  s.summary     = "Summary of UserOnboarding."
+  s.description = "Description of UserOnboarding."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
