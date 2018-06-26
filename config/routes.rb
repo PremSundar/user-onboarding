@@ -1,2 +1,2 @@
-UserOnboarding::Engine.routes.draw do
+UserOnboard::Engine.routes.draw do
 end

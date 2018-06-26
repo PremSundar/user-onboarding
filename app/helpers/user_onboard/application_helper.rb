@@ -1,4 +1,4 @@
-module UserOnboarding
+module UserOnboard
   module ApplicationHelper
   end
 end

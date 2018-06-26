@@ -1,17 +1,17 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "user-onboarding/version"
+require "user_onboard/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "user-onboarding"
-  s.version     = UserOnboarding::VERSION
+  s.name        = "user_onboard"
+  s.version     = UserOnboard::VERSION
   s.authors     = ["Prem"]
   s.email       = ["prem.sundar@freshworks.com"]
-  s.homepage    = "https://github.com/PremSundar/user-onboarding"
-  s.summary     = "Summary of UserOnboarding."
-  s.description = "Description of UserOnboarding."
+  s.homepage    = "https://github.com/PremSundar/user_onboard"
+  s.summary     = "Summary of UserOnboard."
+  s.description = "Description of UserOnboard."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]

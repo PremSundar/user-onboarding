@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
 
-  mount UserOnboarding::Engine => "/user-onboarding"
+  mount UserOnboard::Engine => "/user_onboard"
 end
